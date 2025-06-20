@@ -21,104 +21,73 @@ interface TechCategory {
 
 const projects: Project[] = [
     {
-        title: "E-Commerce Platform",
-        description:
-            "Built a full-stack e-commerce platform using React, Node.js, and PostgresSQL.",
+        title: "Modern Portfolio Website",
+        description: "A clean, responsive portfolio website built with modern web technologies. Features dark mode, smooth animations, and a focus on performance and accessibility.",
         technologies: [
-            {name: "React", type: "frontend"},
-            {name: "Node.js", type: "backend"},
-            {name: "PostgresSQL", type: "backend"},
-            {name: "Stripe", type: "other"},
+            { name: "TypeScript", type: "frontend" },
+            { name: "Tailwind CSS", type: "frontend" },
+            { name: "Vite", type: "frontend" },
+            { name: "HTML5", type: "frontend" },
+            { name: "CSS3", type: "frontend" },
+            { name: "Git", type: "devops" },
+            { name: "GitHub", type: "devops" }
         ],
-        githubUrl: "https://github.com/yourusername/ecommerce-platform",
-        demoUrl: "https://ecommerce.example.com",
+        githubUrl: "https://github.com/pw2712gz/portfolio",
+        demoUrl: "https://ayubyusuf.dev"
     },
     {
-        title: "Cloud Infrastructure Monitor",
+        title: "Full Stack JWT Auth Starter",
         description:
-            "Cloud monitoring tool that tracks usage, costs, and performance metrics.",
+            "Production-ready authentication boilerplate with Spring Boot 3 and Angular 19. Features JWT auth, refresh tokens, and AWS deployment.",
         technologies: [
-            {name: "TypeScript", type: "frontend"},
-            {name: "AWS", type: "devops"},
-            {name: "Terraform", type: "devops"},
-            {name: "Grafana", type: "other"},
+            { name: "Spring Boot", type: "backend" },
+            { name: "Angular", type: "frontend" },
+            { name: "Tailwind CSS", type: "frontend" },
+            { name: "AWS EC2", type: "devops" },
+            { name: "AWS S3", type: "devops" },
+            { name: "MySQL", type: "backend" },
+            { name: "JWT", type: "backend" },
+            { name: "Resend", type: "other" }
         ],
-        githubUrl: "https://github.com/yourusername/cloud-monitor",
-        demoUrl: "https://cloudmonitor.example.com",
+        githubUrl: "https://github.com/pw2712gz/auth-starter",
+        demoUrl: "https://auth.ayubyusuf.dev",
     },
     {
-        title: "AI Task Manager",
-        description:
-            "NLP-based task manager that categorizes and prioritizes tasks automatically.",
+        title: "Connect Auth (OAuth2 Starter)",
+        description: "OAuth2 authentication starter with Spring Boot 3 and Thymeleaf. Supports GitHub/Google login with RDS integration and AWS deployment.",
         technologies: [
-            {name: "Python", type: "backend"},
-            {name: "TensorFlow", type: "backend"},
-            {name: "FastAPI", type: "backend"},
-            {name: "React", type: "frontend"},
+            { name: "Spring Boot", type: "backend" },
+            { name: "Thymeleaf", type: "frontend" },
+            { name: "Tailwind CSS", type: "frontend" },
+            { name: "AWS App Runner", type: "devops" },
+            { name: "AWS RDS", type: "devops" },
+            { name: "OAuth2", type: "backend" },
+            { name: "Cloudflare", type: "devops" }
         ],
-        githubUrl: "https://github.com/yourusername/ai-task-manager",
-        demoUrl: "https://aitasks.example.com",
-    },
-    {
-        title: "Collaborative Code Editor",
-        description:
-            "Real-time collaborative editor with version control and live sync.",
-        technologies: [
-            {name: "React", type: "frontend"},
-            {name: "WebSocket", type: "backend"},
-            {name: "Monaco Editor", type: "frontend"},
-            {name: "Docker", type: "devops"},
-        ],
-        githubUrl: "https://github.com/yourusername/code-editor",
-        demoUrl: "https://editor.example.com",
-    },
-    {
-        title: "Real-time Analytics Dashboard",
-        description:
-            "Dashboard for real-time data stream visualization and reporting.",
-        technologies: [
-            {name: "React", type: "frontend"},
-            {name: "D3.js", type: "frontend"},
-            {name: "WebSocket", type: "backend"},
-            {name: "Redis", type: "backend"},
-        ],
-        githubUrl: "https://github.com/yourusername/analytics-dashboard",
-        demoUrl: "https://analytics.example.com",
-    },
-    {
-        title: "Smart Home Automation Hub",
-        description:
-            "IoT platform for managing smart home devices and automation routines.",
-        technologies: [
-            {name: "Node.js", type: "backend"},
-            {name: "MQTT", type: "backend"},
-            {name: "GraphQL", type: "backend"},
-            {name: "React Native", type: "frontend"},
-        ],
-        githubUrl: "https://github.com/yourusername/smart-home-hub",
-        demoUrl: "https://smarthome.example.com",
-    },
+        githubUrl: "https://github.com/pw2712gz/connect-auth",
+        demoUrl: "https://connect.ayubyusuf.dev"
+    }
 ];
 
 const techStack: TechCategory[] = [
     {
         title: "Frontend",
-        technologies: ["React", "TypeScript", "Tailwind CSS"],
+        technologies: ["Angular", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
         type: "frontend",
     },
     {
         title: "Backend",
-        technologies: ["Node.js", "Python", "PostgresSQL", "Next.js", "Redis"],
+        technologies: ["Spring Boot", "Java", "OAuth2", "JWT", "MySQL"],
         type: "backend",
     },
     {
-        title: "DevOps",
-        technologies: ["Docker", "AWS", "CI/CD", "Kubernetes"],
+        title: "DevOps & Cloud",
+        technologies: ["Docker", "AWS", "AWS App Runner", "CloudFront", "Cloudflare"],
         type: "devops",
     },
     {
         title: "Tools",
-        technologies: ["Git", "VS Code", "Postman", "Figma"],
+        technologies: ["Git", "GitHub", "VS Code", "Postman", "IntelliJ IDEA"],
         type: "other",
     },
 ];
