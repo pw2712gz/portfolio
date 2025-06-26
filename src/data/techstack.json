@@ -1,0 +1,13 @@
+[
+  { "title": "Frontend",        "type": "frontend",
+    "technologies": ["Angular","TypeScript","Tailwind CSS","HTML5","CSS3"] },
+
+  { "title": "Backend",         "type": "backend",
+    "technologies": ["Spring Boot","Java","OAuth2","JWT","MySQL"] },
+
+  { "title": "DevOps & Cloud",  "type": "devops",
+    "technologies": ["Docker","AWS","CloudFront","Cloudflare"] },
+
+  { "title": "Tools",           "type": "other",
+    "technologies": ["Git","GitHub","VS Code","Postman","IntelliJ IDEA"] }
+]
