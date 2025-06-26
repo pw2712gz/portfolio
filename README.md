@@ -10,7 +10,7 @@ A clean, responsive portfolio website built with TypeScript, Vite, and Tailwind 
 ## Tech Stack
 - **Frontend**: TypeScript, Vite, Tailwind CSS
 - **Build Tool**: Vite
-- **Hosting**: []
+- **Hosting**: [Cloudflare Pages]
 
 ## Getting Started
 1. Clone the repo
