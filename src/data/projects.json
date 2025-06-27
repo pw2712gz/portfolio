@@ -46,7 +46,9 @@
       { "name": "TypeScript", "type": "frontend" },
       { "name": "Vite", "type": "frontend" },
       { "name": "HTML5", "type": "frontend" },
-      { "name": "CSS3", "type": "frontend" }
+      { "name": "CSS3", "type": "frontend" },
+      { "name": "Cloudflare Pages", "type": "devops" },
+      { "name": "API Ninjas", "type": "backend" }
     ],
     "githubUrl": "https://github.com/pw2712gz/quote-generator",
     "demoUrl": "https://quote.ayubyusuf.dev"
