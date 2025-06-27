@@ -41,7 +41,7 @@
   },
   {
     "title": "Quote Generator",
-    "description": "Random inspirational quotes with smooth transitions. Built using TypeScript and Vite.",
+    "description": "Random quotes with smooth transitions. Built using TypeScript and Vite.",
     "technologies": [
       { "name": "TypeScript", "type": "frontend" },
       { "name": "Vite", "type": "frontend" },
