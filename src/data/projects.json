@@ -38,5 +38,17 @@
     ],
     "githubUrl": "https://github.com/pw2712gz/connect-auth",
     "demoUrl": "https://connect.ayubyusuf.dev"
+  },
+  {
+    "title": "Quote Generator",
+    "description": "Random inspirational quotes with smooth transitions. Built using TypeScript and Vite.",
+    "technologies": [
+      { "name": "TypeScript", "type": "frontend" },
+      { "name": "Vite", "type": "frontend" },
+      { "name": "HTML5", "type": "frontend" },
+      { "name": "CSS3", "type": "frontend" }
+    ],
+    "githubUrl": "https://github.com/pw2712gz/quote-generator",
+    "demoUrl": "https://quote.ayubyusuf.dev"
   }
 ]
