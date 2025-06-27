@@ -1,4 +1,4 @@
-export type TechType = 'frontend' | 'backend' | 'devops' | 'other';
+export type TechType = "frontend" | "backend" | "devops" | "other";
 
 export interface Technology {
   name: string;

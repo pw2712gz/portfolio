@@ -1,31 +1,34 @@
-import projects   from './data/projects.json';
-import techStack  from './data/techstack.json';
-import type { Project, TechCategory, TechType } from './types';
+import projects from "./data/projects.json";
+import techStack from "./data/techstack.json";
+import type { Project, TechCategory, TechType } from "./types";
 
 /* ── color maps ───────────────────────── */
 const tagColors: Record<TechType, string> = {
-  frontend: 'text-green-400',
-  backend : 'text-blue-400',
-  devops  : 'text-purple-400',
-  other   : 'text-gray-300'
+  frontend: "text-green-400",
+  backend: "text-blue-400",
+  devops: "text-purple-400",
+  other: "text-gray-300",
 };
 
 const badgeColors: Record<TechType, string> = {
-  frontend: 'bg-gray-800 text-green-400/90',
-  backend : 'bg-gray-800 text-blue-400/90',
-  devops  : 'bg-gray-800 text-purple-400/90',
-  other   : 'bg-gray-800 text-gray-300'
+  frontend: "bg-gray-800 text-green-400/90",
+  backend: "bg-gray-800 text-blue-400/90",
+  devops: "bg-gray-800 text-purple-400/90",
+  other: "bg-gray-800 text-gray-300",
 };
 
 /* ── helpers ───────────────────────────── */
-const getColor = (type: TechType) => tagColors[type] ?? 'text-gray-300';
+const getColor = (type: TechType) => tagColors[type] ?? "text-gray-300";
 
 const createProjectCard = (p: Project) => {
   const techChips = p.technologies
-    .map(t =>
-      `<span class="text-xs px-2 py-1 mr-1.5 mb-1.5 rounded-sm bg-gray-800 ${getColor(t.type)} inline-block">${t.name}</span>`
+    .map(
+      (t) =>
+        `<span class="text-xs px-2 py-1 mr-1.5 mb-1.5 rounded-sm bg-gray-800 ${getColor(
+          t.type
+        )} inline-block">${t.name}</span>`
     )
-    .join('');
+    .join("");
 
   return `
   <div class="animate-fade-in border border-gray-600/75 p-4">
@@ -49,8 +52,13 @@ const createProjectCard = (p: Project) => {
 
 const createTechCard = (c: TechCategory) => {
   const badges = c.technologies
-    .map(tech => `<span class="text-xs px-2 py-1 mr-1.5 mb-1.5 rounded-sm ${badgeColors[c.type]} inline-block">${tech}</span>`)
-    .join('');
+    .map(
+      (tech) =>
+        `<span class="text-xs px-2 py-1 mr-1.5 mb-1.5 rounded-sm ${
+          badgeColors[c.type]
+        } inline-block">${tech}</span>`
+    )
+    .join("");
 
   return `
   <div class="animate-fade-in border border-gray-600/75 p-4 h-full">
@@ -60,10 +68,14 @@ const createTechCard = (c: TechCategory) => {
 };
 
 /* ── render ─────────────────────────────── */
-document.getElementById('projects')!.innerHTML =
-  (projects as Project[]).map(createProjectCard).join('');
+document.getElementById("projects")!.innerHTML = (projects as Project[])
+  .map(createProjectCard)
+  .join("");
 
-document.getElementById('techstack-container')!.innerHTML =
-  (techStack as TechCategory[]).map(createTechCard).join('');
+document.getElementById("techstack-container")!.innerHTML = (
+  techStack as TechCategory[]
+)
+  .map(createTechCard)
+  .join("");
 
-document.getElementById('year')!.textContent = String(new Date().getFullYear());
+document.getElementById("year")!.textContent = String(new Date().getFullYear());
