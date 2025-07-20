@@ -6,9 +6,8 @@
       { "name": "TypeScript", "type": "frontend" },
       { "name": "Tailwind CSS", "type": "frontend" },
       { "name": "Vite", "type": "frontend" },
-      { "name": "HTML5", "type": "frontend" },
-      { "name": "CSS3", "type": "frontend" },
-      { "name": "Git", "type": "devops" },
+      { "name": "HTML", "type": "frontend" },
+      { "name": "CSS", "type": "frontend" },
       { "name": "GitHub", "type": "devops" }
     ],
     "githubUrl": "https://github.com/pw2712gz/portfolio",
@@ -45,12 +44,12 @@
     "technologies": [
       { "name": "TypeScript", "type": "frontend" },
       { "name": "Vite", "type": "frontend" },
-      { "name": "HTML5", "type": "frontend" },
-      { "name": "CSS3", "type": "frontend" },
+      { "name": "HTML", "type": "frontend" },
+      { "name": "CSS", "type": "frontend" },
       { "name": "Cloudflare Pages", "type": "devops" },
       { "name": "API Ninjas", "type": "backend" }
     ],
     "githubUrl": "https://github.com/pw2712gz/quote-generator",
-    "demoUrl": "https://quote.ayubyusuf.dev"
+    "demoUrl": "https://quotes.ayubyusuf.dev"
   }
 ]
