@@ -3,12 +3,30 @@
     "title": "Modern Portfolio Website",
     "description": "A clean, responsive portfolio website built with modern web technologies.",
     "technologies": [
-      { "name": "TypeScript", "type": "frontend" },
-      { "name": "Tailwind CSS", "type": "frontend" },
-      { "name": "Vite", "type": "frontend" },
-      { "name": "HTML", "type": "frontend" },
-      { "name": "CSS", "type": "frontend" },
-      { "name": "GitHub", "type": "devops" }
+      {
+        "name": "TypeScript",
+        "type": "frontend"
+      },
+      {
+        "name": "Tailwind CSS",
+        "type": "frontend"
+      },
+      {
+        "name": "Vite",
+        "type": "frontend"
+      },
+      {
+        "name": "HTML",
+        "type": "frontend"
+      },
+      {
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "name": "GitHub",
+        "type": "devops"
+      }
     ],
     "githubUrl": "https://github.com/pw2712gz/portfolio",
     "demoUrl": "https://ayubyusuf.dev"
@@ -17,11 +35,26 @@
     "title": "Full Stack JWT Auth Starter",
     "description": "Production-ready authentication boilerplate with Spring Boot 3 & Angular 19.",
     "technologies": [
-      { "name": "Spring Boot", "type": "backend" },
-      { "name": "Angular", "type": "frontend" },
-      { "name": "JWT", "type": "backend" },
-      { "name": "Tailwind CSS", "type": "frontend" },
-      { "name": "AWS EC2", "type": "devops" }
+      {
+        "name": "Spring Boot",
+        "type": "backend"
+      },
+      {
+        "name": "Angular",
+        "type": "frontend"
+      },
+      {
+        "name": "JWT",
+        "type": "backend"
+      },
+      {
+        "name": "Tailwind CSS",
+        "type": "frontend"
+      },
+      {
+        "name": "AWS EC2",
+        "type": "devops"
+      }
     ],
     "githubUrl": "https://github.com/pw2712gz/auth-starter",
     "demoUrl": "https://auth.ayubyusuf.dev"
@@ -30,10 +63,22 @@
     "title": "Connect Auth (OAuth2 Starter)",
     "description": "OAuth2 starter with Spring Boot 3 & Thymeleaf. GitHub/Google login, AWS deploy.",
     "technologies": [
-      { "name": "Spring Boot", "type": "backend" },
-      { "name": "Thymeleaf", "type": "frontend" },
-      { "name": "OAuth2", "type": "backend" },
-      { "name": "AWS AppRunner", "type": "devops" }
+      {
+        "name": "Spring Boot",
+        "type": "backend"
+      },
+      {
+        "name": "Thymeleaf",
+        "type": "frontend"
+      },
+      {
+        "name": "OAuth2",
+        "type": "backend"
+      },
+      {
+        "name": "AWS AppRunner",
+        "type": "devops"
+      }
     ],
     "githubUrl": "https://github.com/pw2712gz/connect-auth",
     "demoUrl": "https://connect.ayubyusuf.dev"
@@ -42,12 +87,30 @@
     "title": "Quote Generator",
     "description": "Random quotes with smooth transitions. Built using TypeScript and Vite.",
     "technologies": [
-      { "name": "TypeScript", "type": "frontend" },
-      { "name": "Vite", "type": "frontend" },
-      { "name": "HTML", "type": "frontend" },
-      { "name": "CSS", "type": "frontend" },
-      { "name": "Cloudflare Pages", "type": "devops" },
-      { "name": "API Ninjas", "type": "backend" }
+      {
+        "name": "TypeScript",
+        "type": "frontend"
+      },
+      {
+        "name": "Vite",
+        "type": "frontend"
+      },
+      {
+        "name": "HTML",
+        "type": "frontend"
+      },
+      {
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "type": "devops"
+      },
+      {
+        "name": "API Ninjas",
+        "type": "backend"
+      }
     ],
     "githubUrl": "https://github.com/pw2712gz/quote-generator",
     "demoUrl": "https://quotes.ayubyusuf.dev"
